@@ -26,3 +26,20 @@ font-family: 'Open Sans';
     padding: 10px;
     font-size: 40px;
 }
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .grid-container {
+      width: 100%;
+      display: block;
+    }
+    .grid-container h3 {font-size: medium;}
+    .grid-item li {font-size: 10px;}
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 900px) {
+    .grid-container {
+      display: block;
+    }
+}
